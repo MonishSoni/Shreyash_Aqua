@@ -1,0 +1,41 @@
+.copyright {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.copyright p,
+.copyright p a {
+  font-size: 14px;
+  color: #7f8d99;
+}
+
+.copyright p a {
+  text-decoration: none;
+  border-bottom: 1.5px solid #42e2f5;
+}
+
+.copyright .sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.copyright p span {
+  font-weight: 700;
+}
+
+.copyright .sec2 {
+  display: flex;
+  gap: 20px;
+}
+.copyright .sec2 .icons {
+  display: flex;
+  gap: 10px;
+}
+
+.copyright .sec2 .icons svg {
+  font-size: 16px;
+  color: #42e2f5;
+}
