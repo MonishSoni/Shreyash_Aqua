@@ -1,12 +1,17 @@
-.BtnPrimary{
-    padding: 20px 30px;
-    text-decoration: none;
-    background-color: #42e2f5;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    border: none;
-    outline: none;
-    border-radius: 3px;
+.BtnPrimary {
+  padding: 20px 30px;
+  text-decoration: none;
+  background-color:  #32b8f3;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.BtnPrimary:hover {
+  background: #1791f0;
+  transition: all 0.3s ease;
 }

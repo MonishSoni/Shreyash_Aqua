@@ -1,0 +1,29 @@
+.servicelist {
+  padding: 4% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.servicelist h1 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #7f8d99;
+}
+
+.servicelist .line {
+  margin-top: 15px;
+  border-bottom: 3px solid #7f8d99;
+  width: 40px;
+}
+
+.listcon{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px 20px;
+
+}
