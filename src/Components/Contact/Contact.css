@@ -1,0 +1,106 @@
+.contactcon .form > h1 {
+  color: #7f8d99;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.contactcon .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contactcon .form .name {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+
+.contactcon .form input:hover,.contactcon form textarea:hover{
+  border: 2px solid #32b8f3;
+  transition: all 0.3s ease;
+}
+.contactcon form textarea{
+  padding: 20px;
+  resize: none;
+  width: 100%;
+  height: 15vh;
+  background-color: #ecf1f5;
+  outline: none;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.contactcon form > button {
+  border: none;
+  outline: none;
+  padding: 20px;
+  width: 100%;
+  background-color: #32b8f3;
+  color: #ffffff;
+  margin-top: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.contactcon .form .email {
+  margin-bottom: 25px;
+}
+.contactcon .form input {
+  outline: none;
+  border: 2px solid transparent;
+  padding: 20px 105px 20px 20px;
+  background-color: #ecf1f5;
+  width: 100%;
+  color: #7f8d99;
+  transition: all 0.3s ease;
+}
+.contactcon form > h1 {
+  color: #32b8f3;
+  font-size: 58px;
+  margin-top: 25px;
+}
+.form .line {
+  margin-top: 15px;
+  border-bottom: 3px solid #7f8d99;
+  width: 40px;
+}
+
+.contactcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 8% 4%;
+}
+
+.contact .ccard {
+  padding: 65px 85px;
+  background: rgb(23, 145, 240);
+  background: linear-gradient(
+    180deg,
+    rgba(23, 145, 240, 1) 0%,
+    rgba(50, 184, 243, 1) 62%
+  );
+  border-radius: 5px;
+}
+
+.ccard > * {
+  color: white;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.ccard > div {
+  padding: 20px 100px 20px 0;
+  border-bottom: 1px solid #ffffff;
+}
+.ccard div:last-child {
+  border-bottom: none;
+}
+.ccard h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}

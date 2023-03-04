@@ -1,0 +1,23 @@
+.about .atext {
+  padding: 20px 100px;
+}
+
+.about .acon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.about .acon .aimg img {
+  width: 500px;
+}
+.about .atext p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #7f8d99;
+  margin-bottom: 15px;
+}
+.about .atext p:nth-child(5) {
+  margin-bottom: 35px;
+}
