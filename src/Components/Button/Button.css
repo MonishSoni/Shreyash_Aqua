@@ -10,6 +10,7 @@
   outline: none;
   border-radius: 3px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 .BtnPrimary:hover {
   background: #1791f0;
